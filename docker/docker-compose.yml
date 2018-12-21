@@ -1,0 +1,5 @@
+kinesalite:
+    container_name: tweet-stream_kinesalite
+    build: kinesalite
+    ports:
+        - "4567:4567"
